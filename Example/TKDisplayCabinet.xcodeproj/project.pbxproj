@@ -42,10 +42,10 @@
 		607FACE51AFB9204008FA782 /* TKDisplayCabinet_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKDisplayCabinet_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7ECBEA0EB7C7212C79789B18 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7ECBEA0EB7C7212C79789B18 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		90964F73178BA17B06FBDC97 /* Pods_TKDisplayCabinet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKDisplayCabinet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7D7EDE81707864AA1E5DBE9 /* TKDisplayCabinet.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TKDisplayCabinet.podspec; path = ../TKDisplayCabinet.podspec; sourceTree = "<group>"; };
-		DE1E4F21E5793743EA1BCF7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A7D7EDE81707864AA1E5DBE9 /* TKDisplayCabinet.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TKDisplayCabinet.podspec; path = ../TKDisplayCabinet.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DE1E4F21E5793743EA1BCF7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E3350F5588CE1F35CD613C55 /* Pods-TKDisplayCabinet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKDisplayCabinet_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TKDisplayCabinet_Tests/Pods-TKDisplayCabinet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 466T2LS7MJ;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 466T2LS7MJ;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -517,6 +519,7 @@
 			baseConfigurationReference = 1260D4DA3797079395470FFB /* Pods-TKDisplayCabinet_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 466T2LS7MJ;
 				INFOPLIST_FILE = TKDisplayCabinet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -532,6 +535,7 @@
 			baseConfigurationReference = 08CCCCBE58C89EB999261C42 /* Pods-TKDisplayCabinet_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 466T2LS7MJ;
 				INFOPLIST_FILE = TKDisplayCabinet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -546,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E3350F5588CE1F35CD613C55 /* Pods-TKDisplayCabinet_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 466T2LS7MJ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -567,6 +572,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4A046199E70939D9C980767B /* Pods-TKDisplayCabinet_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 466T2LS7MJ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

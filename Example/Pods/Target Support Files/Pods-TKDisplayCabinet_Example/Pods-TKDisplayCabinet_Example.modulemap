@@ -1,0 +1,6 @@
+framework module Pods_TKDisplayCabinet_Example {
+  umbrella header "Pods-TKDisplayCabinet_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

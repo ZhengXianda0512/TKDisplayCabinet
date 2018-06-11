@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TKDisplayCabinet'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TKDisplayCabinet.'
+  s.summary          = '展示柜'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,15 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = '以列表形式展示视图控制器, 便于调试多种功能'
 
-  s.homepage         = 'https://github.com/zhengxianda/TKDisplayCabinet'
+  s.homepage         = 'https://github.com/ZhengXianda0512/TKDisplayCabinet'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zhengxianda' => 'xianda.zheng@jiamiantech.com' }
-  s.source           = { :git => 'https://github.com/zhengxianda/TKDisplayCabinet.git', :tag => s.version.to_s }
+  s.author           = { 'zhengxianda' => 'zhengxianda0512@gmail.com' }
+  s.source           = { :git => 'https://github.com/ZhengXianda0512/TKDisplayCabinet.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

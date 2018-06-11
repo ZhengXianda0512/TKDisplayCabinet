@@ -1,0 +1,22 @@
+{
+  "name": "TKDisplayCabinet",
+  "version": "0.1.0",
+  "summary": "A short description of TKDisplayCabinet.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhengxianda/TKDisplayCabinet",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhengxianda": "xianda.zheng@jiamiantech.com"
+  },
+  "source": {
+    "git": "https://github.com/zhengxianda/TKDisplayCabinet.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TKDisplayCabinet/Classes/**/*"
+}

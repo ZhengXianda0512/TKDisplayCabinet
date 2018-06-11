@@ -1,0 +1,16 @@
+PODS:
+  - TKDisplayCabinet (0.1.0)
+
+DEPENDENCIES:
+  - TKDisplayCabinet (from `../`)
+
+EXTERNAL SOURCES:
+  TKDisplayCabinet:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TKDisplayCabinet: 5349bebdbf7183571081fad5970409c8f554a2a7
+
+PODFILE CHECKSUM: 026f994ac383a8b23c3af35bbbc54765cc56cbb6
+
+COCOAPODS: 1.4.0

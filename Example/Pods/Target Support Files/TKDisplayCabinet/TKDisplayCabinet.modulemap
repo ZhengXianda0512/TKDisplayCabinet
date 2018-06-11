@@ -1,0 +1,6 @@
+framework module TKDisplayCabinet {
+  umbrella header "TKDisplayCabinet-umbrella.h"
+
+  export *
+  module * { export * }
+}
