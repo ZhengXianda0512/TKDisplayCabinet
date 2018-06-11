@@ -10,10 +10,10 @@
 		0E3506EE398E6DC2B47607B31BDBA3DE /* Pods-TKDisplayCabinet_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AACDD1DEFE9A9D793CC9E48DEDD438F4 /* Pods-TKDisplayCabinet_Example-dummy.m */; };
 		1216940EF0554A199B39B6D9987B2CEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		188950D66A3D65472465A4238ACF21E8 /* Pods-TKDisplayCabinet_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E42CDB10D446F4B9362A1863824E87DF /* Pods-TKDisplayCabinet_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DDF9B348B385D241E663E4C538B3782 /* TKDisplayCabinet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4933D040A5FC0A95699557CAB19F2993 /* TKDisplayCabinet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DDF9B348B385D241E663E4C538B3782 /* TKDisplayCabinet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 415D0087DC1DD1305A7D24B1701C6634 /* TKDisplayCabinet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58B5D7C287035517FF7C51F01EC3DE83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7A20F2EC6C20DE8D7DB1C1BBFC4402B1 /* TKDisplayCabinet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B30EEE04228FEB41E84707E279DE3F46 /* TKDisplayCabinet-dummy.m */; };
-		CDA34FC4EB2825ADBE6896A770E90AA5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03AD298D72013EFCDC01044FF61B6AC /* ReplaceMe.swift */; };
+		822593655985772FFA2A372501CD8833 /* TKDisplayCabinet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F9BA5220014F3375A8F4743D54E80F /* TKDisplayCabinet-dummy.m */; };
+		983342EB2451E0C5EF96AFD9712364FD /* TKDisplayCabinetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6068B82689EF2F4C89F52E2E1040CFF6 /* TKDisplayCabinetViewController.swift */; };
 		D1907B9C3A46D6B3D67988897738AF4E /* Pods-TKDisplayCabinet_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BE816CDFE8A3F25776BB4DAECE4E27 /* Pods-TKDisplayCabinet_Tests-dummy.m */; };
 		D2C2AFF9FECFD54586EAD8039EEC97F8 /* Pods-TKDisplayCabinet_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2961D8F32603EC2FB78D9D44E90922C0 /* Pods-TKDisplayCabinet_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D621F496C7C4914F8C87D440CE102505 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -38,31 +38,31 @@
 		2204B2C267869F3D16BE958ED57A0B3E /* Pods-TKDisplayCabinet_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKDisplayCabinet_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		27503CA6E942A955E38452C29382B090 /* Pods-TKDisplayCabinet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKDisplayCabinet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2961D8F32603EC2FB78D9D44E90922C0 /* Pods-TKDisplayCabinet_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKDisplayCabinet_Example-umbrella.h"; sourceTree = "<group>"; };
-		383351A0E4D73156845E3CF781DF648D /* TKDisplayCabinet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKDisplayCabinet.xcconfig; sourceTree = "<group>"; };
 		3854AF1A323B7AC5A6167C30E8D1BE70 /* Pods-TKDisplayCabinet_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKDisplayCabinet_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		38DF142E2E707766F2996E87D3BD35D8 /* TKDisplayCabinet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TKDisplayCabinet.modulemap; sourceTree = "<group>"; };
+		3D7302E246BCFC2708C6EC80AC7BA2A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		415D0087DC1DD1305A7D24B1701C6634 /* TKDisplayCabinet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKDisplayCabinet-umbrella.h"; sourceTree = "<group>"; };
 		461A38A1DB365F0D1A7A296E668107AD /* Pods-TKDisplayCabinet_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKDisplayCabinet_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4933D040A5FC0A95699557CAB19F2993 /* TKDisplayCabinet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKDisplayCabinet-umbrella.h"; sourceTree = "<group>"; };
 		531154425E39C2D9220CF560D65598EB /* Pods-TKDisplayCabinet_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TKDisplayCabinet_Example.modulemap"; sourceTree = "<group>"; };
-		5927835CD531FF408DA60B8DC04049D6 /* TKDisplayCabinet.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TKDisplayCabinet.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5F05E8EC96DE84C3C85D5027897009EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6068B82689EF2F4C89F52E2E1040CFF6 /* TKDisplayCabinetViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TKDisplayCabinetViewController.swift; path = TKDisplayCabinet/Classes/TKDisplayCabinetViewController.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6680672DB910830D98F4E5FAE25DEF08 /* Pods_TKDisplayCabinet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TKDisplayCabinet_Tests.framework; path = "Pods-TKDisplayCabinet_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7790ED620AB7CA92B3138F149F24C671 /* TKDisplayCabinet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKDisplayCabinet-prefix.pch"; sourceTree = "<group>"; };
+		6680672DB910830D98F4E5FAE25DEF08 /* Pods_TKDisplayCabinet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKDisplayCabinet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E6200744154C644C4DF028ADFB7DCB1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7A5A93B8D292ACFD5B1C34006541677F /* Pods-TKDisplayCabinet_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKDisplayCabinet_Tests-resources.sh"; sourceTree = "<group>"; };
 		91C00AA904205A1A83CBF1F63C29885D /* Pods-TKDisplayCabinet_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKDisplayCabinet_Example-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AEE90988EA5B36E065388F394D3F1A7 /* TKDisplayCabinet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKDisplayCabinet-prefix.pch"; sourceTree = "<group>"; };
 		9B8D17F8AA4F5E68DAC51338BF315E83 /* Pods-TKDisplayCabinet_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKDisplayCabinet_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A03AD298D72013EFCDC01044FF61B6AC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TKDisplayCabinet/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		AACDD1DEFE9A9D793CC9E48DEDD438F4 /* Pods-TKDisplayCabinet_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKDisplayCabinet_Example-dummy.m"; sourceTree = "<group>"; };
 		AEEC49CC019BABE3C2979C2DE3828D1D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0041E2C1EE2670F715B37A0A1B7D508 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		B30EEE04228FEB41E84707E279DE3F46 /* TKDisplayCabinet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKDisplayCabinet-dummy.m"; sourceTree = "<group>"; };
-		B408EF5E86128A4E440E59981976E045 /* TKDisplayCabinet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TKDisplayCabinet.modulemap; sourceTree = "<group>"; };
-		BB63E6CCA25FB961CBCD56BF6CCF8BBE /* Pods_TKDisplayCabinet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TKDisplayCabinet_Example.framework; path = "Pods-TKDisplayCabinet_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0386936166078854302BBA6DA066144 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2DDB56AC79A632C924B0516B2CF611F /* TKDisplayCabinet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TKDisplayCabinet.framework; path = TKDisplayCabinet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDDA1A44090F3CB27D7CE5D6FFCA0B1E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B8AC7F31093E23DD2BDFF6E2D0FECCEE /* TKDisplayCabinet.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TKDisplayCabinet.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB63E6CCA25FB961CBCD56BF6CCF8BBE /* Pods_TKDisplayCabinet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKDisplayCabinet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCBC47B888FE7DD0503367053C6EA7E8 /* TKDisplayCabinet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKDisplayCabinet.xcconfig; sourceTree = "<group>"; };
+		C2DDB56AC79A632C924B0516B2CF611F /* TKDisplayCabinet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TKDisplayCabinet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F9BA5220014F3375A8F4743D54E80F /* TKDisplayCabinet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKDisplayCabinet-dummy.m"; sourceTree = "<group>"; };
 		CF293689BE6AB88F09531F07C93241C2 /* Pods-TKDisplayCabinet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKDisplayCabinet_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E290F084E406C74F8A91C7479F4BC107 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E42CDB10D446F4B9362A1863824E87DF /* Pods-TKDisplayCabinet_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKDisplayCabinet_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F18AB4F89B9989C43574D686A18B3BF8 /* Pods-TKDisplayCabinet_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKDisplayCabinet_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,27 +95,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17B3F2AA679C77589C348B6DA6E498B3 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				CDDA1A44090F3CB27D7CE5D6FFCA0B1E /* LICENSE */,
-				B0041E2C1EE2670F715B37A0A1B7D508 /* README.md */,
-				5927835CD531FF408DA60B8DC04049D6 /* TKDisplayCabinet.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		2A13333BFDEB13A91A98CA2EE1713165 /* TKDisplayCabinet */ = {
-			isa = PBXGroup;
-			children = (
-				A03AD298D72013EFCDC01044FF61B6AC /* ReplaceMe.swift */,
-				17B3F2AA679C77589C348B6DA6E498B3 /* Pod */,
-				B98D53DEA4CF8DC62DAA6D8D8C32747C /* Support Files */,
-			);
-			name = TKDisplayCabinet;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		3EBBFC2C9F4D5F6B930885EA92B288FF /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +122,17 @@
 			path = "Target Support Files/Pods-TKDisplayCabinet_Example";
 			sourceTree = "<group>";
 		};
+		7D7F4E5F63C990BA47F0ECBD3559C774 /* TKDisplayCabinet */ = {
+			isa = PBXGroup;
+			children = (
+				6068B82689EF2F4C89F52E2E1040CFF6 /* TKDisplayCabinetViewController.swift */,
+				EF01D5034F82E7A206DF63DE1F3AC88F /* Pod */,
+				AA06A596D34327880C75E2CAF9A1EFDF /* Support Files */,
+			);
+			name = TKDisplayCabinet;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +142,20 @@
 				B282D8B57A5389647193B18A809DEECB /* Products */,
 				3EBBFC2C9F4D5F6B930885EA92B288FF /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		AA06A596D34327880C75E2CAF9A1EFDF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D7302E246BCFC2708C6EC80AC7BA2A2 /* Info.plist */,
+				38DF142E2E707766F2996E87D3BD35D8 /* TKDisplayCabinet.modulemap */,
+				BCBC47B888FE7DD0503367053C6EA7E8 /* TKDisplayCabinet.xcconfig */,
+				C2F9BA5220014F3375A8F4743D54E80F /* TKDisplayCabinet-dummy.m */,
+				9AEE90988EA5B36E065388F394D3F1A7 /* TKDisplayCabinet-prefix.pch */,
+				415D0087DC1DD1305A7D24B1701C6634 /* TKDisplayCabinet-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TKDisplayCabinet";
 			sourceTree = "<group>";
 		};
 		AB578F367F998F4637DF283FF06184F9 /* Pods-TKDisplayCabinet_Tests */ = {
@@ -182,20 +186,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B98D53DEA4CF8DC62DAA6D8D8C32747C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C0386936166078854302BBA6DA066144 /* Info.plist */,
-				B408EF5E86128A4E440E59981976E045 /* TKDisplayCabinet.modulemap */,
-				383351A0E4D73156845E3CF781DF648D /* TKDisplayCabinet.xcconfig */,
-				B30EEE04228FEB41E84707E279DE3F46 /* TKDisplayCabinet-dummy.m */,
-				7790ED620AB7CA92B3138F149F24C671 /* TKDisplayCabinet-prefix.pch */,
-				4933D040A5FC0A95699557CAB19F2993 /* TKDisplayCabinet-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TKDisplayCabinet";
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,10 +202,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		EF01D5034F82E7A206DF63DE1F3AC88F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E290F084E406C74F8A91C7479F4BC107 /* LICENSE */,
+				6E6200744154C644C4DF028ADFB7DCB1 /* README.md */,
+				B8AC7F31093E23DD2BDFF6E2D0FECCEE /* TKDisplayCabinet.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		F5E6640AF87AD21F215BF5E147B104F9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2A13333BFDEB13A91A98CA2EE1713165 /* TKDisplayCabinet */,
+				7D7F4E5F63C990BA47F0ECBD3559C774 /* TKDisplayCabinet */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -254,7 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED001C58EC51088554A24E8B47280CF0 /* Build configuration list for PBXNativeTarget "TKDisplayCabinet" */;
 			buildPhases = (
-				5B824ED86CA45C21CE8537A47B3160F8 /* Sources */,
+				716B35D5E7FC0F6EBD4951EB3BFB6104 /* Sources */,
 				778B8EFE87905885509C5A54EC3F3F9A /* Frameworks */,
 				F594BBCE1DEF47C8BB6D2D1454302E21 /* Headers */,
 			);
@@ -331,20 +331,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5B824ED86CA45C21CE8537A47B3160F8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CDA34FC4EB2825ADBE6896A770E90AA5 /* ReplaceMe.swift in Sources */,
-				7A20F2EC6C20DE8D7DB1C1BBFC4402B1 /* TKDisplayCabinet-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5C9D752FA36CC1D7F263BF102D16839C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0E3506EE398E6DC2B47607B31BDBA3DE /* Pods-TKDisplayCabinet_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716B35D5E7FC0F6EBD4951EB3BFB6104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822593655985772FFA2A372501CD8833 /* TKDisplayCabinet-dummy.m in Sources */,
+				983342EB2451E0C5EF96AFD9712364FD /* TKDisplayCabinetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,7 +467,7 @@
 		};
 		66A8F3E63FD669F0746C47BBD1F02CCB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 383351A0E4D73156845E3CF781DF648D /* TKDisplayCabinet.xcconfig */;
+			baseConfigurationReference = BCBC47B888FE7DD0503367053C6EA7E8 /* TKDisplayCabinet.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -588,7 +588,7 @@
 		};
 		90466F99EABEFF3CFD19FD3B70BD6CC7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 383351A0E4D73156845E3CF781DF648D /* TKDisplayCabinet.xcconfig */;
+			baseConfigurationReference = BCBC47B888FE7DD0503367053C6EA7E8 /* TKDisplayCabinet.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
