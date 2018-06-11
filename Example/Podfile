@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TKDisplayCabinet_Example' do
+  pod 'TKDisplayCabinet', :path => '../'
+
+  target 'TKDisplayCabinet_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
